@@ -64,7 +64,7 @@ sections:
               Responsibilities include:
 
               * Applying large-scale optimization and machine learning to critical applications in supply chain and manufacturing.
-              * Managing industry projects including UPS, and Best Buy. 
+              * Managing industry projects including UPS, Union Pacific, and Best Buy. 
               * Supervising graduate students 
         - title: Graduate Research and Teaching Assistant
           company: NC State University
