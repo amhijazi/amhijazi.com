@@ -133,13 +133,13 @@ sections:
   #      exclude_past: false
    #     publication_type: ""
       # Choose how many pages you would like to offset by
-      offset: 0
+    #  offset: 0
       # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+    #  order: desc
     design:
       # Choose a layout view
-      view: compact
-      columns: '2'
+    #  view: compact
+     # columns: '2'
  # - block: portfolio
   #  id: projects
    # content:
@@ -154,12 +154,12 @@ sections:
       # To show all items, set `tag` to "*".
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
-    design:
+   # design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
+   #   columns: '1'
+     # view: showcase
       # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
+    #  flip_alt_rows: false
   - block: collection
     content:
       title: Recent Publications
