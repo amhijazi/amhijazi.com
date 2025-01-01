@@ -54,17 +54,6 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-       - title: Research Engineer
-          company: AI4OPT, Georgia Tech
-          company_url: 'https://www.ai4opt.org/'
-          location: Georgia
-          date_start: '2024-09-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
-              * Applying large-scale optimization and machine learning to critical applications in supply chain and manufacturing.
-              * Managing industry projects including UPS, Union Pacific, Smurfit Westrock, and Best Buy. 
-              * Supervising graduate and undergraduate students.
         - title: Postdoctoral Fellow
           company: AI4OPT, Georgia Tech
           company_url: 'https://www.ai4opt.org/'
