@@ -62,7 +62,6 @@ sections:
           date_end: ''
           description: |2-
               Responsibilities include:
-
               * Applying large-scale optimization and machine learning to critical applications in supply chain and manufacturing.
               * Managing industry projects including UPS, Union Pacific, Smurfit Westrock, and Best Buy. 
               * Supervising graduate and undergraduate students.
