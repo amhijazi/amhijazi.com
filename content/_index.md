@@ -66,11 +66,6 @@ sections:
           location: Georgia
           date_start: '2023-07-01'
           date_end: '2024-08-30'
-          description: |2-
-              Responsibilities include:
-              * Applying large-scale optimization and machine learning to critical applications in supply chain and manufacturing.
-              * Managing industry projects including UPS, Union Pacific, and Best Buy. 
-              * Supervising graduate students. 
         - title: Graduate Research and Teaching Assistant
           company: NC State University
           company_url: 'https://www.ise.ncsu.edu/'
