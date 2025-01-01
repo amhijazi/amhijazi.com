@@ -15,7 +15,7 @@ last_name: Hijazi
 superuser: true
 
 # Role/position/tagline
-role: Postdoctoral Fellow
+role: Research Engineer II
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -77,7 +77,13 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
- I am a Postdoctoral Fellow at the [NSF Artificial Intelligence Research Institute for Advances in Optimization](https://www.ai4opt.org/) in the Georgia Tech School of Industrial and Systems Engineering working with [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) applying optimzation and machine learning to supply chain problems. 
+ I am a Research Faculty at the [NSF Artificial Intelligence Research Institute for Advances in Optimization](https://www.ai4opt.org/) in the Georgia Tech School of Industrial and Systems Engineering working with [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) and leading the supply chain group. Current projects include:
+ - Data-Driven E-Commerce Robust Order Fulfillment with Delivery Delay Uncertainty.
+- Integrated Large-Scale Lot Sizing, Cutting Stock, and Transportation Planning in the Paper Industry.
+- Strategic Locomotive Assignment Optimization. 
+- Data-Driven Dynamic Load Consolidation. 
+- Optimal Timeshifting Strategies for Sustainable Computing.
+- ML for Column Generation with application in the Parallel Machine Scheduling. 
 
  I received my PhD in Industrial and Systems Engineering from NC State University where I was advised by [Osman Ozaltin](https://www.ise.ncsu.edu/people/oyozalti/) and [Reha Uzsoy](https://www.ise.ncsu.edu/people/ruzsoy/). During my PhD, I worked on optimal resource allocation in healthcare and production systems.  Methods include stochastic programming, combinatorial optimization and machine learning. Specific applications include risk-averse vaccine allocation, product transitions in decentralized environments and parallel machine scheduling.
 
