@@ -160,17 +160,16 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
- - block: collection
-   # id: featured
-   content:
-      title: Featured Publications
+  - block: collection
+    content:
+      title: Recent Publications
+      text: ""
       filters:
         folders:
           - publication
-       featured_only: false
+        exclude_featured: false
     design:
-      columns: '2'
-      view: card
+      view: citation
 #  - block: collection
   #  content:
     #  title: Recent Publications
