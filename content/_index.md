@@ -42,6 +42,16 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+   - block: collection
+    content:
+      title: Recent Publications
+      text: ""
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      view: citation
   - block: experience
     content:
       title: Experience
@@ -160,16 +170,6 @@ sections:
      # view: showcase
       # For Showcase view, flip alternate rows?
     #  flip_alt_rows: false
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
 #  - block: collection
   #  content:
     #  title: Recent Publications
