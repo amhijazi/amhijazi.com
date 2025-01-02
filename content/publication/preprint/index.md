@@ -1,7 +1,6 @@
 ---
 title: "Contextual Stochastic Optimization for Omnichannel Multi-Courier Order Fulfillment Under Delivery Time Uncertainty (Under Review)"
 authors: 
-- Tinghan Ye, Sikai Cheng, admin, Pascal Van Hentenryck
 - Tinghan Ye
 - Sikai Cheng
 - admin
