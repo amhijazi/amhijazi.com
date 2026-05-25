@@ -6,26 +6,6 @@ type: landing
 sections:
 
   - block: hero
-    content:
-      title: Amira Hijazi
-      text: |
-        Research Engineer II, Georgia Tech (AI4OPT)  
-        
-        **AI + Optimization for Large-Scale Supply Chains**
-
-      cta:
-        label: Publications
-        url: /publication/
-      cta_alt:
-        label: Download CV
-        url: /files/cv.pdf
-    design:
-      background:
-        gradient_start: '#ffffff'
-        gradient_end: '#f5f7fa'
-        text_color_light: false
-
-  - block: hero
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
       title: Hugo Academic Theme
