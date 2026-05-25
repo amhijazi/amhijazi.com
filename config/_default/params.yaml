@@ -5,11 +5,13 @@
 
 # Appearance
 
+
 appearance:
-  theme_day: minimal
-  theme_night: minimal
+  theme_day: default
+  theme_night: default
   font: minimal
   font_size: L
+
 
 # SEO
 
@@ -69,10 +71,12 @@ features:
     enable: false
   privacy_pack:
     enable: false
+  
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/amhijazi/amhijazi.com'
     content_dir: content
     branch: main
+
   avatar:
     gravatar: false
     shape: circle
