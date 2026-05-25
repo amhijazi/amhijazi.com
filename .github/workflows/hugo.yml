@@ -35,11 +35,12 @@ jobs:
       - name: Build site
         run: hugo --minify
 
-      - name: Upload site
-        uses: actions/upload-artifact@v4
+      
+      - name: Upload
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: site
           path: public/
+
 
       - name: Deploy
         uses: actions/deploy-pages@v4
