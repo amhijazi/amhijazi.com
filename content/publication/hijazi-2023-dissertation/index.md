@@ -1,6 +1,5 @@
 ---
-title: 'An Improving Column Is All You Need: Enhancing Column Generation for Parallel
-  Machine Scheduling via Transformers'
+title: 'Resource Allocation Using Mathematical Optimization and Machine Learning'
 
 # Authors
 # A YAML list of author names
@@ -8,25 +7,23 @@ title: 'An Improving Column Is All You Need: Enhancing Column Generation for Par
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Amira Hijazi
-- O Ozaltin
-- R Uzsoy
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2026-01-01'
+date: '2023-01-01'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2026-05-25T16:07:40.650421Z'
+publishDate: '2026-08-05T00:00:00Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- article-journal
+- thesis
 
 # Publication name and optional abbreviated publication name.
-publication: '*INFORMS Journal on Computing* (forthcoming)'
+publication: 'PhD Dissertation, *North Carolina State University*'
 publication_short: ''
 
 doi: ''
