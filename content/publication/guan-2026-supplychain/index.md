@@ -26,7 +26,7 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*arXiv preprint arXiv:2607.16618*'
+publication: '*Under Review*'
 publication_short: ''
 
 doi: ''
@@ -35,11 +35,8 @@ abstract: ''
 
 # Summary. An optional shortened abstract.
 summary: >-
-  Supply chain planning problems have multiple interconnected layers of decision-making. In paper manufacturing, these layers include production scheduling, trimming decisions, vehicle loading, multi-period demand fulfillment, and inventory management.  To solve the fully integrated problem at industrial scale, we exploit the structure of the problem and use a hybrid method combining column generation and dynamic programming
-  for the supply-side  with Benders decomposition for downstream fulfillement, giving the first exact
-  model that ties all four decisions together at industrial scale. On real data it cuts costs
-  by 24% and shrinks solve times from over five hours to under one hour compared to the prior
-  approach.
+  Supply chain planning problems have multiple interconnected layers of decision-making. In paper manufacturing, these layers include production scheduling, trimming decisions, vehicle loading, multi-period demand fulfillment, and inventory management.  To solve the fully integrated problem at industrial scale, we develop a hybrid method combining column generation and dynamic programming
+  for the supply-side decisions with Benders decomposition for downstream fulfillement. On real instances from a major North American paper manufacturer, the proposed approach lowers total costs by 24.4% compared to a traditional CG-DP on challenging eight-week planning problems.
 
 tags: []
 

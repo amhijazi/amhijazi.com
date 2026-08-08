@@ -8,8 +8,8 @@ title: 'An Improving Column Is All You Need: Enhancing Column Generation for Par
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Amira Hijazi
-- O Ozaltin
-- R Uzsoy
+- Osman Ozaltin
+- Reha Uzsoy
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -26,7 +26,7 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*INFORMS Journal on Computing* (forthcoming)'
+publication: '*INFORMS Journal on Computing*'
 publication_short: ''
 
 doi: ''
@@ -35,13 +35,7 @@ abstract: ''
 
 # Summary. An optional shortened abstract.
 summary: >-
-  Parallel machine scheduling problems are often solved with column generation, where the slow
-  step is repeatedly solving a dynamic program to find new job sequences worth adding to the plan.
-  This work replaces that step with a transformer-based neural network that learns to propose good
-  sequences directly, cutting computation time by 45% on small-to-medium instances while a dynamic
-  program still verifies optimality. On large-scale instances, the learned approach improves
-  solution quality by 80% within minutes, and the model generalizes to problem sizes and
-  distributions it was never trained on.
+  This paper addresses a key computational bottleneck in column generation, namely the repeated solution of pricing subproblems. We develop a pointer transformer model (CG NN-DP) to generate new columns in each iteration of the CG for minimizing the total weighted completion time of a set of jobs on unrelated parallel machines. The proposed approach leverages a learned optimization proxy to rapidly approximate the solution of the NP-hard single-machine scheduling pricing subproblem. Computational experiments demonstrate that CG NN-DP significantly achieves faster convergence than traditional column generation with DP. We also compare CG NN-DP with a CG procedure using an efficient pricing heuristic. For medium-sized instances, both methods yield improvements of 65% to 90% over traditional CG, while CG NN-DP outperforms CG Heuristic-DP as the number of jobs increases.
 
 tags: []
 
@@ -78,4 +72,3 @@ image:
 projects: []
 ---
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
