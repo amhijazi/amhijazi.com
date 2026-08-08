@@ -34,15 +34,22 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: >-
+  Parallel machine scheduling problems are often solved with column generation, where the slow
+  step is repeatedly solving a dynamic program to find new job sequences worth adding to the plan.
+  This work replaces that step with a transformer-based neural network that learns to propose good
+  sequences directly, cutting computation time by 45% on small-to-medium instances while a dynamic
+  program still verifies optimality. On large-scale instances, the learned approach improves
+  solution quality by 80% within minutes, and the model generalizes to problem sizes and
+  distributions it was never trained on.
 
 tags: []
 
 # Display this page in a list of Featured pages?
-featured: false
+featured: true
 
 # Links
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2410.15601'
 url_code: ''
 url_dataset: ''
 url_poster: ''

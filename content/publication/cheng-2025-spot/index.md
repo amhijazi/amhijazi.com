@@ -36,15 +36,22 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: >-
+  Consolidating smaller freight loads into larger shipments saves money and reduces emissions, but
+  picking the right consolidation points has to respect real constraints like driver schedules and
+  terminal operations. SPOT combines machine learning, spatio-temporal clustering, and frequent-
+  pattern mining to discover recurring, operationally feasible consolidation points, then an
+  optimization stage selects the most cost-effective routes each day. On industrial freight data,
+  SPOT cuts travel distance and cost by roughly 50% compared to current practice, while also
+  revealing recurring patterns that support proactive tactical planning.
 
 tags: []
 
 # Display this page in a list of Featured pages?
-featured: false
+featured: true
 
 # Links
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2504.09680'
 url_code: ''
 url_dataset: ''
 url_poster: ''

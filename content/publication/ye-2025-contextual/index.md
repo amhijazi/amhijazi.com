@@ -35,15 +35,23 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: >-
+  Online retailers typically decide which warehouse and carrier should fulfill each order using
+  simple cost-minimization rules that ignore how orders could be batched together or how reliable
+  a given carrier actually is. This paper develops a Contextual Stochastic Optimization framework
+  that folds distributional forecasts of delivery delays directly into the fulfillment decision,
+  tested on a real dataset with tens of thousands of products and up to thousands of fulfillment
+  options. The framework is the first to combine multi-courier, omnichannel fulfillment with
+  delivery-time uncertainty, and it substantially improves on-time delivery accuracy while letting
+  retailers trade off cost against delivery risk.
 
 tags: []
 
 # Display this page in a list of Featured pages?
-featured: false
+featured: true
 
 # Links
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2409.06918'
 url_code: ''
 url_dataset: ''
 url_poster: ''

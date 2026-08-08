@@ -35,15 +35,21 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: >-
+  Delivery load plans made days in advance often need last-minute adjustments as actual conditions
+  unfold. This paper builds a two-stage deep learning system, refined operationally with the
+  freshest data and paired with conformal prediction, to automate these load plan adjustments for
+  a large logistics company. The approach outperforms traditional machine learning baselines and
+  gives planners calibrated, trustworthy confidence sets rather than single point predictions, and
+  it has already been deployed with strong accuracy in production.
 
 tags: []
 
 # Display this page in a list of Featured pages?
-featured: false
+featured: true
 
 # Links
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2411.17502'
 url_code: ''
 url_dataset: ''
 url_poster: ''

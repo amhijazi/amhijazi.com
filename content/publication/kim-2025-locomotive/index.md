@@ -34,15 +34,21 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: >-
+  Assigning locomotives to trains across a freight rail network is a large, cyclical planning
+  problem shaped by power imbalances and complex operating rules. Working with a major Class I
+  freight railroad, this paper models the problem as an integer program over a space-time network
+  and introduces new reduction rules that make exact solutions possible for networks that were
+  previously too large to solve. The resulting tool produces repeatable, high-quality weekly
+  assignment plans that serve as a practical decision-support system for the railroad.
 
 tags: []
 
 # Display this page in a list of Featured pages?
-featured: false
+featured: true
 
 # Links
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2507.22235'
 url_code: ''
 url_dataset: ''
 url_poster: ''

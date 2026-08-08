@@ -33,15 +33,22 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: >-
+  Knowing not just a single expected delivery date but a full range of likely delivery times, with
+  a real statistical guarantee, is valuable for setting customer expectations. This paper applies
+  Conformal Predictive Systems and Cross Venn-Abers Predictors to forecast the full distribution
+  of order fulfillment times, using spatiotemporal features about fulfillment location and carrier
+  performance. On a large industrial dataset, the resulting point predictions beat the existing
+  rule-based system by up to 14% in accuracy and up to 75% in catching late deliveries, while
+  still providing rigorous coverage guarantees.
 
 tags: []
 
 # Display this page in a list of Featured pages?
-featured: false
+featured: true
 
 # Links
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2505.17340'
 url_code: ''
 url_dataset: ''
 url_poster: ''

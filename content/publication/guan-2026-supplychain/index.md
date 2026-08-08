@@ -7,9 +7,9 @@ title: 'End-to-End Supply Chain Planning in the Paper Industry Via Column Genera
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- C Guan
+- Changkun Guan
 - Amira Hijazi
-- P Van Hentenryck
+- Pascal Van Hentenryck
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -34,15 +34,20 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: >-
+  Supply chain planning problems have multiple interconnected layers of decision-making. In paper manufacturing, these layers include production scheduling, trimming decisions, vehicle loading, multi-period demand fulfillment, and inventory management.  To solve the fully integrated problem at industrial scale, we exploit the structure of the problem and use a hybrid method combining column generation and dynamic programming
+  for the supply-side  with Benders decomposition for downstream fulfillement, giving the first exact
+  model that ties all four decisions together at industrial scale. On real data it cuts costs
+  by 24% and shrinks solve times from over five hours to under one hour compared to the prior
+  approach.
 
 tags: []
 
 # Display this page in a list of Featured pages?
-featured: false
+featured: true
 
 # Links
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2607.16618'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -70,5 +75,3 @@ image:
 #   Otherwise, set `projects: []`.
 projects: []
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
