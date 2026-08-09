@@ -7,11 +7,11 @@ title: 'SPOT: Spatio-Temporal Pattern Mining and Optimization for Load Consolida
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- S Cheng
+- Sikai Cheng
 - Amira Hijazi
-- J Konak
-- A Erera
-- P Van Hentenryck
+- Jeren Konak
+- Alan Erera
+- Pascal Van Hentenryck
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -37,14 +37,7 @@ abstract: ''
 
 # Summary. An optional shortened abstract.
 summary: >-
-  Consolidating smaller freight loads into larger shipments saves money and reduces emissions, but
-  picking the right consolidation points has to respect real constraints like driver schedules and
-  terminal operations. SPOT combines machine learning, spatio-temporal clustering, and frequent-
-  pattern mining to discover recurring, operationally feasible consolidation points, then an
-  optimization stage selects the most cost-effective routes each day. On industrial freight data,
-  SPOT cuts travel distance and cost by roughly 50% compared to current practice, while also
-  revealing recurring patterns that support proactive tactical planning.
-
+  This work proposes SPOT, an end-to-end approach that integrates the benefits of machine learning (ML) and optimization for load consolidation. The ML component plays a key role in the planning phase by identifying the consolidation points through spatio-temporal clustering and constrained frequent itemset mining, while the optimization selects the most cost effective feasible consolidation routes for a given operational day. Extensive experiments conducted on industrial load data demonstrate that SPOT significantly reduces travel distance and transportation costs (by about 50% on large terminals) compared to the existing industry-standard load planning strategy and a neighborhood-based heuristic. Moreover, the ML component provides valuable tactical-level insights by identifying frequently recurring consolidation opportunities that guide proactive planning. In addition, SPOT is computationally efficient and can be easily scaled to accommodate large transportation networks.
 tags: []
 
 # Display this page in a list of Featured pages?

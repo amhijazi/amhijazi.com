@@ -43,7 +43,7 @@ tags: []
 featured: true
 
 # Links
-url_pdf: 'https://arxiv.org/pdf/2410.15601'
+url_pdf: 'https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2024.1005'
 url_code: ''
 url_dataset: ''
 url_poster: ''

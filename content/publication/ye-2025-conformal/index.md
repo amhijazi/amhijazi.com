@@ -6,9 +6,9 @@ title: Conformal Predictive Distributions for Order Fulfillment Time Forecasting
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- T Ye
+- Tinghan Ye
 - Amira Hijazi
-- P Van Hentenryck
+- Pascal Van Hentenryck
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -34,13 +34,8 @@ abstract: ''
 
 # Summary. An optional shortened abstract.
 summary: >-
-  Knowing not just a single expected delivery date but a full range of likely delivery times, with
-  a real statistical guarantee, is valuable for setting customer expectations. This paper applies
-  Conformal Predictive Systems and Cross Venn-Abers Predictors to forecast the full distribution
-  of order fulfillment times, using spatiotemporal features about fulfillment location and carrier
-  performance. On a large industrial dataset, the resulting point predictions beat the existing
-  rule-based system by up to 14% in accuracy and up to 75% in catching late deliveries, while
-  still providing rigorous coverage guarantees.
+ This paper introduces a novel framework for distributional forecasting of order fulfillment time, leveraging Conformal Predictive Systems and
+ Cross Venn-Abers Predictors—model-agnostic techniques that provide rigorous coverage or validity guarantees. The proposed machine learning methods integrate granular spatiotemporal features, capturing fulfillment location and carrier performance dynamics to enhance predictive accuracy. Additionally, a cost-sensitive decision rule is developed to convert probabilistic forecasts into reliable point predictions. Experimental evaluation on a large-scale industrial dataset achieves up to 14% higher prediction accuracy and up to 75% improvement in identifying late deliveriesc compared to rule-based methods.
 
 tags: []
 

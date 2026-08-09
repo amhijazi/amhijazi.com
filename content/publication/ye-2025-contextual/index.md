@@ -7,10 +7,10 @@ title: Contextual Stochastic Optimization for Omnichannel Multi-Courier Order Fu
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- T Ye
-- S Cheng
+- Tinghan Ye
+- Sikai Cheng
 - Amira Hijazi
-- P Van Hentenryck
+- Pascal Van Hentenryck
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -51,7 +51,7 @@ tags: []
 featured: true
 
 # Links
-url_pdf: 'https://arxiv.org/pdf/2409.06918'
+url_pdf: 'https://pubsonline.informs.org/doi/abs/10.1287/msom.2024.1328'
 url_code: ''
 url_dataset: ''
 url_poster: ''
