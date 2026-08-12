@@ -37,7 +37,8 @@ abstract: ''
 summary: >-
   This paper addresses a key computational bottleneck in column generation, namely the repeated solution of pricing subproblems. We develop a pointer transformer model (CG NN-DP) to generate new columns in each iteration of the CG for minimizing the total weighted completion time of a set of jobs on unrelated parallel machines. The proposed approach leverages a learned optimization proxy to rapidly approximate the solution of the NP-hard single-machine scheduling pricing subproblem. Computational experiments demonstrate that CG NN-DP significantly achieves faster convergence than traditional column generation with DP. We also compare CG NN-DP with a CG procedure using an efficient pricing heuristic. For medium-sized instances, both methods yield improvements of 65% to 90% over traditional CG, while CG NN-DP outperforms CG Heuristic-DP as the number of jobs increases.
 
-tags: []
+tags:
+  - production-scheduling
 
 # Display this page in a list of Featured pages?
 featured: true

@@ -37,7 +37,8 @@ summary: >-
  This paper introduces a novel framework for distributional forecasting of order fulfillment time, leveraging Conformal Predictive Systems and
  Cross Venn-Abers Predictors—model-agnostic techniques that provide rigorous coverage or validity guarantees. The proposed machine learning methods integrate granular spatiotemporal features, capturing fulfillment location and carrier performance dynamics to enhance predictive accuracy. Additionally, a cost-sensitive decision rule is developed to convert probabilistic forecasts into reliable point predictions. Experimental evaluation on a large-scale industrial dataset achieves up to 14% higher prediction accuracy and up to 75% improvement in identifying late deliveriesc compared to rule-based methods.
 
-tags: []
+tags:
+  - order-fulfillment
 
 # Display this page in a list of Featured pages?
 featured: true

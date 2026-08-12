@@ -45,7 +45,8 @@ summary: >-
   delivery-time uncertainty, and it substantially improves on-time delivery accuracy while letting
   retailers trade off cost against delivery risk.
 
-tags: []
+tags:
+  - order-fulfillment
 
 # Display this page in a list of Featured pages?
 featured: true

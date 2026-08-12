@@ -38,7 +38,8 @@ abstract: ''
 # Summary. An optional shortened abstract.
 summary: >-
   This work proposes SPOT, an end-to-end approach that integrates the benefits of machine learning (ML) and optimization for load consolidation. The ML component plays a key role in the planning phase by identifying the consolidation points through spatio-temporal clustering and constrained frequent itemset mining, while the optimization selects the most cost effective feasible consolidation routes for a given operational day. Extensive experiments conducted on industrial load data demonstrate that SPOT significantly reduces travel distance and transportation costs (by about 50% on large terminals) compared to the existing industry-standard load planning strategy and a neighborhood-based heuristic. Moreover, the ML component provides valuable tactical-level insights by identifying frequently recurring consolidation opportunities that guide proactive planning. In addition, SPOT is computationally efficient and can be easily scaled to accommodate large transportation networks.
-tags: []
+tags:
+  - service-network-design
 
 # Display this page in a list of Featured pages?
 featured: true
