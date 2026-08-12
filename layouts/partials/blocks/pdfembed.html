@@ -1,0 +1,13 @@
+{{/* Custom block: embed a PDF inline on the page. */}}
+{{ $block := .wcBlock }}
+{{ $file := $block.content.file | default "uploads/resume.pdf" }}
+
+<div class="col-12">
+  <div style="width:100%; max-width:900px; margin:0 auto;">
+    <iframe src="{{ $file | relURL }}" title="{{ $block.content.title | default "PDF" }}"
+        style="width:100%; height:85vh; border:1px solid #ddd; border-radius:8px;"></iframe>
+  </div>
+  <div class="text-center mt-3">
+    <a class="btn btn-outline-primary" href="{{ $file | relURL }}" target="_blank" rel="noopener">Download PDF</a>
+  </div>
+</div>

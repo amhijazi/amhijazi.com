@@ -67,27 +67,15 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: 'https://www.linkedin.com/in/amira-hijazi/'
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
- I am a Research Faculty at the [NSF Artificial Intelligence Research Institute for Advances in Optimization](https://www.ai4opt.org/) in the Georgia Tech School of Industrial and Systems Engineering working with [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) and leading the supply chain group. Current projects include:
- - Data-Driven E-Commerce Robust Order Fulfillment with Delivery Delay Uncertainty.
-- Integrated Large-Scale Lot Sizing, Cutting Stock, and Transportation Planning in the Paper Industry.
-- Strategic Locomotive Assignment Optimization. 
-- Data-Driven Dynamic Load Consolidation. 
-- Optimal Timeshifting Strategies for Sustainable Computing.
-- ML for Column Generation with application in the Parallel Machine Scheduling. 
+ I am a Research Faculty at the [NSF Artificial Intelligence Research Institute for Advances in Optimization](https://www.ai4opt.org/) in the Georgia Tech School of Industrial and Systems Engineering working with [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) and leading the supply chain group.
 
- I received my PhD in Industrial and Systems Engineering from NC State University where I was advised by [Osman Ozaltin](https://www.ise.ncsu.edu/people/oyozalti/) and [Reha Uzsoy](https://www.ise.ncsu.edu/people/ruzsoy/). During my PhD, I worked on optimal resource allocation in healthcare and production systems.  Methods include stochastic programming, combinatorial optimization and machine learning. Specific applications include risk-averse vaccine allocation, product transitions in decentralized environments and parallel machine scheduling.
+Broadly, I am interested in developing scalable, data-driven, and risk-aware solutions for supply chains and logistics. My research combines exact optimization algorithms with AI to improve production scheduling, service network design, and order fulfillment.
 
-In summer 2020, I did a research internship at Los Alamos National Lab, where I worked with [Hassan Hijazi](https://about.me/hhijazi) on alignment and registration of 3D point-cloud using mathematical optimization.
+My longer-term research agenda is to bring these decentralized yet interdependent components together into end-to-end supply chain planning solutions. In my view, moving from decentralized decision making into integrated planning systems is the defining challenge and opportunity of modern supply chains.
 
-Before coming to NCSU,  I did my undergrad at the Islamic University of Gaza majoring in Industrial Engineering.
+I received my PhD in Industrial and Systems Engineering from NC State University, where I was advised by [Osman Ozaltin](https://www.ise.ncsu.edu/people/oyozalti/) and [Reha Uzsoy](https://www.ise.ncsu.edu/people/ruzsoy/). Prior to NC State, I received a BS in Industrial Engineering from the Islamic University of Gaza.
 {style="text-align: justify;"}
