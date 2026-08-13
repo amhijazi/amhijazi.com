@@ -1,0 +1,78 @@
+{{/* Custom block: a row of "research pillar" cards with a graphic, title, and one-line tagline each. */}}
+{{ $block := .wcBlock }}
+{{ $items := $block.content.items | default slice }}
+{{ $n := len $items }}
+{{ $col := "col-md-3" }}
+{{ if eq $n 3 }}{{ $col = "col-md-4" }}{{ end }}
+{{ if eq $n 2 }}{{ $col = "col-md-6" }}{{ end }}
+
+<div class="col-12">
+  <div class="row text-center justify-content-center" style="row-gap: 32px;">
+    {{ range $items }}
+    {{ $color := .color | default "#1976d2" }}
+    {{ $dark := .color_dark | default $color }}
+    <div class="{{ $col }}">
+      <svg viewBox="0 0 160 100" width="160" height="100" style="margin-bottom: 8px; max-width: 100%;">
+
+        {{ if eq .icon "scheduling" }}
+        <rect x="70" y="80" width="20" height="7" rx="2" fill="{{ $dark }}"/>
+        <rect x="76" y="70" width="8" height="12" fill="{{ $dark }}"/>
+        <rect x="18" y="14" width="124" height="60" rx="7" fill="{{ $color }}"/>
+        <rect x="27" y="22" width="106" height="44" rx="3" fill="#ffffff"/>
+        <rect x="34" y="30" width="42" height="7" rx="3" fill="{{ $color }}"/>
+        <rect x="34" y="43" width="62" height="7" rx="3" fill="{{ $dark }}"/>
+        <rect x="52" y="56" width="46" height="7" rx="3" fill="{{ $color }}" opacity="0.6"/>
+
+        {{ else if eq .icon "network-mesh" }}
+        <rect x="8" y="82" width="144" height="5" rx="2.5" fill="{{ $dark }}" opacity="0.25"/>
+        <path d="M22 62 Q 80 22 138 58" stroke="{{ $color }}" stroke-width="3" stroke-dasharray="6,6" fill="none" opacity="0.55"/>
+        <circle cx="22" cy="62" r="7" fill="{{ $dark }}"/>
+        <circle cx="138" cy="58" r="7" fill="{{ $color }}"/>
+        <g transform="translate(78,64)">
+          <rect x="-30" y="-16" width="38" height="24" rx="4" fill="{{ $color }}"/>
+          <path d="M8,-16 h20 l11,15 v9 h-31 z" fill="{{ $dark }}"/>
+          <circle cx="-18" cy="10" r="8" fill="#2d2d2d"/>
+          <circle cx="16" cy="10" r="8" fill="#2d2d2d"/>
+          <circle cx="-18" cy="10" r="3.2" fill="#ffffff"/>
+          <circle cx="16" cy="10" r="3.2" fill="#ffffff"/>
+        </g>
+
+        {{ else if eq .icon "fulfillment-uncertainty" }}
+        <g transform="translate(45,58)">
+          <polygon points="-26,-6 0,-19 26,-6 26,16 0,29 -26,16" fill="{{ $color }}"/>
+          <polygon points="-26,-6 0,7 26,-6 0,-19" fill="{{ $dark }}" opacity="0.55"/>
+        </g>
+        <circle cx="113" cy="42" r="27" fill="{{ $color }}" opacity="0.15"/>
+        <circle cx="113" cy="42" r="20" fill="#ffffff" stroke="{{ $color }}" stroke-width="4"/>
+        <text x="113" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="{{ $color }}" font-family="Helvetica,Arial,sans-serif">?</text>
+
+        {{ else if eq .icon "chain-flow" }}
+        <path d="M12 88 Q 80 106 148 88" stroke="{{ $color }}" stroke-width="10" fill="none" opacity="0.22" stroke-linecap="round"/>
+        <g transform="translate(28,52)">
+          <rect x="-18" y="-6" width="36" height="26" rx="3" fill="{{ $color }}"/>
+          <rect x="-12" y="-19" width="9" height="15" fill="{{ $dark }}"/>
+          <rect x="3" y="-15" width="9" height="11" fill="{{ $dark }}"/>
+        </g>
+        <path d="M52 52 h13" stroke="{{ $color }}" stroke-width="2.5"/>
+        <polygon points="67,52 60,47 60,57" fill="{{ $color }}"/>
+        <g transform="translate(80,52)">
+          <circle cx="0" cy="-11" r="8" fill="{{ $dark }}"/>
+          <circle cx="-13" cy="11" r="6" fill="{{ $color }}"/>
+          <circle cx="13" cy="11" r="6" fill="{{ $color }}"/>
+          <line x1="0" y1="-11" x2="-13" y2="11" stroke="{{ $color }}" stroke-width="2.5"/>
+          <line x1="0" y1="-11" x2="13" y2="11" stroke="{{ $color }}" stroke-width="2.5"/>
+        </g>
+        <path d="M100 52 h13" stroke="{{ $color }}" stroke-width="2.5"/>
+        <polygon points="115,52 108,47 108,57" fill="{{ $color }}"/>
+        <g transform="translate(133,52)">
+          <polygon points="0,-18 18,-10 18,10 0,18 -18,10 -18,-10" fill="{{ $color }}"/>
+          <polygon points="-18,-10 0,-2 18,-10 0,-18" fill="{{ $dark }}" opacity="0.55"/>
+        </g>
+        {{ end }}
+      </svg>
+      <h4 style="color: {{ $color }}; margin-bottom: 8px;">{{ .title }}</h4>
+      <p style="color: #555;">{{ .description }}</p>
+    </div>
+    {{ end }}
+  </div>
+</div>
