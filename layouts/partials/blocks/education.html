@@ -1,0 +1,21 @@
+{{/* Custom block: standalone Education section, pulled from an author profile. */}}
+{{ $block := .wcBlock }}
+{{ $username := $block.content.username | default "admin" }}
+{{ $person_page := site.GetPage (printf "/authors/%s" $username) }}
+{{ $person := $person_page.Params }}
+
+{{ with $person.education }}
+<div class="col-12 col-lg-8">
+  <ul class="ul-edu fa-ul mb-0">
+    {{ range .courses }}
+    <li>
+      <i class="fa-li fa-solid fa-graduation-cap"></i>
+      <div class="description">
+        <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
+        <p class="institution">{{ .institution }}</p>
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

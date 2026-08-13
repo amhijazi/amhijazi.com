@@ -73,9 +73,7 @@ highlight_name: true
 ---
  I am a Research Faculty at the [NSF Artificial Intelligence Research Institute for Advances in Optimization](https://www.ai4opt.org/) in the Georgia Tech School of Industrial and Systems Engineering working with [Pascal Van Hentenryck](https://sites.gatech.edu/pascal-van-hentenryck/) and leading the supply chain group.
 
-Broadly, I am interested in developing scalable, data-driven, and risk-aware solutions for supply chains and logistics. My research combines exact optimization algorithms with AI to improve production scheduling, service network design, and order fulfillment.
-
-My longer-term research agenda is to bring these decentralized yet interdependent components together into end-to-end supply chain planning solutions. In my view, moving from decentralized decision making into integrated planning systems is the defining challenge and opportunity of modern supply chains.
+Broadly, I am interested in developing scalable, data-driven, and risk-aware solutions for supply chains and logistics. My research combines exact optimization algorithms with AI to improve production scheduling, service network design, and order fulfillment, with a longer-term agenda of bringing these decentralized yet interdependent components together into end-to-end supply chain planning solutions. In my view, moving from decentralized decision making into integrated planning systems is the defining challenge and opportunity of modern supply chains.
 
 I received my PhD in Industrial and Systems Engineering from NC State University, where I was advised by [Osman Ozaltin](https://www.ise.ncsu.edu/people/oyozalti/) and [Reha Uzsoy](https://www.ise.ncsu.edu/people/ruzsoy/). Prior to NC State, I received a BS in Industrial Engineering from the Islamic University of Gaza.
 {style="text-align: justify;"}

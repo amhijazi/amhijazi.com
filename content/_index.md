@@ -52,6 +52,11 @@ sections:
         exclude_featured: false
     design:
       view: citation
+  - block: education
+    id: education
+    content:
+      title: Education
+      username: admin
   - block: experience
     content:
       title: Experience
@@ -107,6 +112,12 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - certificate_url: ""
+          date_start: "2025-01-01"
+          description: 'For "Contextual Stochastic Optimization for Omnichannel Multi-Courier Order Fulfillment Under Delivery Time Uncertainty."'
+          organization: INFORMS MSOM Practice-Based Research Competition
+          organization_url: ''
+          title: Honorable Mention
         - certificate_url: ""
           date_end: "2016-05-01"
           date_start: "2015-08-01"

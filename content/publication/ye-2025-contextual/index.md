@@ -43,7 +43,8 @@ summary: >-
   tested on a real dataset with tens of thousands of products and up to thousands of fulfillment
   options. The framework is the first to combine multi-courier, omnichannel fulfillment with
   delivery-time uncertainty, and it substantially improves on-time delivery accuracy while letting
-  retailers trade off cost against delivery risk.
+  retailers trade off cost against delivery risk. This work received an Honorable Mention in the
+  2025 INFORMS MSOM Practice-Based Research Competition.
 
 tags:
   - order-fulfillment
