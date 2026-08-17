@@ -75,7 +75,7 @@ highlight_name: true
 
 Broadly, I am interested in developing scalable, data-driven, and risk-aware solutions for supply chains and logistics. My research combines exact optimization algorithms with AI to improve production scheduling, service network design, and order fulfillment, with a longer-term agenda of bringing these decentralized yet interdependent components together into end-to-end supply chain planning solutions. In my view, **moving from decentralized decision making into integrated planning systems is the defining challenge and opportunity of modern supply chains.**
 
-Much of my research is inspired by real-world problems identified through close collaboration with industry partners, where I work to translate critical business needs into technical roadmaps, oversee scientific progress, and communicate findings to non-technical stakeholders and decision-makers.
+Much of my research is inspired by real-world problems identified through close collaboration with industry partners, where I work to translate critical business needs into technical roadmaps, oversee scientific progress, and communicate findings to non-technical stakeholders and decision-makers. I have worked closely with industry partners including UPS, Union Pacific, Smurfit WestRock, and Best Buy.
 
 I received my PhD in Industrial and Systems Engineering from NC State University, where I was advised by [Osman Ozaltin](https://www.ise.ncsu.edu/people/oyozalti/) and [Reha Uzsoy](https://www.ise.ncsu.edu/people/ruzsoy/). Prior to NC State, I received a BS in Industrial Engineering from the Islamic University of Gaza.
 {style="text-align: justify;"}
