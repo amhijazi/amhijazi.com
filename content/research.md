@@ -6,7 +6,7 @@ sections:
   - block: pillars
     id: research-platform
     content:
-      title: Research Platform
+      title: ''
       items:
         - title: Scheduling at Scale
           color: '#1976d2'
@@ -28,6 +28,26 @@ sections:
           color_dark: '#6c3483'
           icon: chain-flow
           description: Building efficient, resilient, trustworthy, and sustainable solutions using AI and optimization
+  - block: pillars
+    id: methodology
+    content:
+      title: Methodology
+      items:
+        - title: Exact Optimization
+          color: '#0d3b66'
+          color_dark: '#082541'
+          icon: target
+          description: Column generation and Benders decomposition for provably optimal solutions at scale
+        - title: Learning-Based Methods
+          color: '#0d3b66'
+          color_dark: '#082541'
+          icon: neural-net
+          description: 'Transformer-based models, supervised learning, reinforcement learning'
+        - title: Uncertainty Quantification and Modeling
+          color: '#0d3b66'
+          color_dark: '#082541'
+          icon: distribution
+          description: 'Conformal prediction, stochastic and robust optimization for modeling under uncertainty'
   - block: collection
     id: production-scheduling
     content:
